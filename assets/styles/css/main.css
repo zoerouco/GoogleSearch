@@ -1,0 +1,10 @@
+* {
+    background-color: #212124;
+}
+#google_logo {
+    display: block;
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
