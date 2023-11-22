@@ -1,10 +1,136 @@
 * {
-    background-color: #212124;
+    background-color: #202124;
 }
-#google_logo {
-    display: block;
+
+body, html {
+    font-family: arial,sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    height: calc(100% - 560px);
+    max-height: 290px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.search {
     padding: 20px;
     max-height: 160px;
     flex-shrink: 0;
     box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
+}
+
+.lJ9FBc {
+    height: 70px;
+}
+
+.lJ9FBc input[type="submit"], .gbqfba {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;color:#e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lJ9FBc input[type="submit"]:hover {
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+.lJ9FBc input[type="submit"]:focus {
+    border: 1px solid #5f6368;
+    outline: none;
+}
+
+.aajZCb .lJ9FBc input, .aajZCb .lJ9FBc input:hover {
+    background:#3c4043;
+}
+
+.contents {
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.texts {
+    font-size: small;
+    text-align: center;
+    margin-bottom: 24px;
+    display: block;
+    color: #bdc1c6;
+    line-height: 28px;
+    padding:0 3px;
+}
+
+.languages {
+    color: #bdc1c6;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.footing {
+    background: #171717;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #e8eaed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
 }
